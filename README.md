@@ -26,7 +26,7 @@
   ``sudo apt-get install docker-ce``
 > Note: Using sudo docker gets installed with super user privilage. Thus to build it we must use ``sudo``
 
-**Example:**
+  **Example:**
 
-a. Build docker image: ``sudo docker build .``
+  a. Build docker image: ``sudo docker build .``
 
