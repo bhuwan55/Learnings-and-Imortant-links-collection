@@ -26,3 +26,10 @@
     a. Build docker image: ``sudo docker build .``
  
  [Docker commands list documentation](https://docs.docker.com/engine/reference/commandline/container_ls/)
+ 
+ # Docker Compose
+  - Too that allows to run the project on docker containers easily.
+  - Helps in managing different services that the project uses inside the container. For exampe one service might be python service while another service might be database.
+  
+  
+ 
