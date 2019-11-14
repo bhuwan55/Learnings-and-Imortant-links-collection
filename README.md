@@ -30,5 +30,5 @@
 
   a. Build docker image: ``sudo docker build .``
   
- 5. [Docker commands list documentation](https://docs.docker.com/engine/reference/commandline/container_ls/)
+5. [Docker commands list documentation](https://docs.docker.com/engine/reference/commandline/container_ls/)
 
