@@ -61,6 +61,8 @@ services:
           - sh : shell 
           -c : optional parameter for sh which says we want to ``run command on shell``
  
+ **Build docker image** : ``sudo docker-compose build``
+ 
    
     
     
