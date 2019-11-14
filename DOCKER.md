@@ -46,6 +46,25 @@ services:
     command: >
       sh -c "python manage.py runserver 0.0.0.0:8000"
   ```
+  > Note: Note the indentation
+  
+  
+  **Description**
+  
+   - ``version:`` Version of docker compose to use.
+   - ``services: `` Services to be used
+   - ``app:``  name of the service
+   - ``context: .`` Setting context to the current directory 
+   - Ports : ``"8000:8000"`` maps the port 8000 on container(left) to 8000 port on local machine
+   - Volume: Allows us to get updates we make into docker image from local machine in real time.
+   - Command  
+          - sh : shell 
+          -c : optional parameter for sh which says we want to ``run command on shell``
+ 
+   
+    
+    
+    
   
   
  
