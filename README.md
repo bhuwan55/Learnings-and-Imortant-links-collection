@@ -24,6 +24,9 @@
   
   - Install the latest version of docker
   ``sudo apt-get install docker-ce``
+> Note: Using sudo docker gets installed with super user privilage. Thus to build it we must use ``sudo``
 
+**Example:**
 
+a. Build docker image: ``sudo docker build .``
 
