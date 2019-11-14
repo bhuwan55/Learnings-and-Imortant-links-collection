@@ -31,5 +31,21 @@
   - Too that allows to run the project on docker containers easily.
   - Helps in managing different services that the project uses inside the container. For exampe one service might be python service while another service might be database.
   
+  - Filename : ``docker-compose.yml`` i.e ends with ``.yml`` extension
+  
+  ```yml
+  version: "3"
+services:
+  app :
+    build :
+      context: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app
+    command: >
+      sh -c "python manage.py runserver 0.0.0.0:8000"
+  ```
+  
   
  
