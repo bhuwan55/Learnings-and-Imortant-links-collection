@@ -1,5 +1,8 @@
 # Delete N no's of git commit(Remote repo)
 
+> Caution!!: Deleting a commit deletes the changes made in the commit. 
+It should only be used to remove the mistakely commited changes.
+
 ## 1. Switch to the branch:
 
 ``git checkout <branch_name>``
