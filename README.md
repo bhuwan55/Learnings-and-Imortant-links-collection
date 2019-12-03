@@ -6,3 +6,5 @@
 4. [Docker Quick Start Django with Postgress](https://docs.docker.com/compose/django/)
 
 5. [Python Import System](https://docs.python.org/3.5/reference/import.html#the-import-system)
+
+6. [Django modules index](https://docs.djangoproject.com/en/2.2/py-modindex/)
