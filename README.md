@@ -8,3 +8,5 @@
 5. [Python Import System](https://docs.python.org/3.5/reference/import.html#the-import-system)
 
 6. [Django modules index](https://docs.djangoproject.com/en/2.2/py-modindex/)
+
+7. [Advanced Uses of Decorators](http://archive.oreilly.com/oreillyschool/courses/Python4/Python4-07.html)
