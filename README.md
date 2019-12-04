@@ -12,3 +12,5 @@
 7. [Advanced Uses of Decorators](http://archive.oreilly.com/oreillyschool/courses/Python4/Python4-07.html)
 
 8. [Django Proxy Model - Creating A custom User Model ](https://simpleisbetterthancomplex.com/tutorial/2016/07/22/how-to-extend-django-user-model.html)
+
+9. [Django Database Constraints- Stackoverflow](https://stackoverflow.com/a/49981364/10901575)
