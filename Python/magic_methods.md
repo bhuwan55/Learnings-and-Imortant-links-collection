@@ -1,6 +1,6 @@
 # getitem
 - Magic method which gets exexuted when, class variable is passed key
-- Provides a functionality by which class behave as a dictionary.
+- Provides a functionality by which object of any class behave as a dictionary.
 
 ```python
 class HelperClass:
