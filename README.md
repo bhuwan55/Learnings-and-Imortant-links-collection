@@ -10,3 +10,5 @@
 6. [Django modules index](https://docs.djangoproject.com/en/2.2/py-modindex/)
 
 7. [Advanced Uses of Decorators](http://archive.oreilly.com/oreillyschool/courses/Python4/Python4-07.html)
+
+8. [Django Proxy Model - Creating A custom User Model ](https://simpleisbetterthancomplex.com/tutorial/2016/07/22/how-to-extend-django-user-model.html)
