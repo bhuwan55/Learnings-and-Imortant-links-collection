@@ -4,6 +4,7 @@
    - [Python Virtual Env Setup](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#installing-virtualenv)
    - [Python Import System](https://docs.python.org/3.5/reference/import.html#the-import-system)
    - [Advanced Uses of Decorators](http://archive.oreilly.com/oreillyschool/courses/Python4/Python4-07.html)
+   - [Operator Overloading with magic methods](https://www.python-course.eu/python3_magic_methods.php)
 
 - **Django**
   - [Django modules index](https://docs.djangoproject.com/en/2.2/py-modindex/)
