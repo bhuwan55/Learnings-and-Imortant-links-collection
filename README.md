@@ -17,6 +17,8 @@
   - [Github SSH setup](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
   - [Setting username and password github client](https://help.github.com/en/github/using-git/setting-your-username-in-git)
+  
+  - [Git Commit Squash](https://github.com/wprig/wprig/wiki/How-to-squash-commits)
 
 # Docker
 - - [Docker Quick Start Django with Postgress](https://docs.docker.com/compose/django/)
