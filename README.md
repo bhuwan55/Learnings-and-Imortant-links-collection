@@ -11,6 +11,7 @@
   - [Django Database Constraints- Stackoverflow](https://stackoverflow.com/a/49981364/10901575)
   - [Django Proxy Model - Creating A custom User Model ](https://simpleisbetterthancomplex.com/tutorial/2016/07/22/how-to-extend-django-user-model.html)
   - [Django CBV full methods and attributes description](http://ccbv.co.uk/)
+  - [Django Test Driven Development](https://test-driven-django-development.readthedocs.io/en/latest/01-getting-started.html)
 
 
 # Github
