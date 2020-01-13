@@ -52,11 +52,12 @@ try:
 except Foo.DoesNotExist:
   raise Http404("Foo Doesn't exists")
 ```
-**Another way of handling exception, queryset for search operation**
+**Another way of handling exception when there exists two or more objects satisfying the certain criteria**
 ```python
 qs = Foo.objects.filter(title=query)
 if qs.exists() and qs.count() == 1:
-  instance = qs.first()
+  instance = qs.first() 
 else:
   raise Http404("Foo doesn't exists.")
 ```
+**Note:** ``instance = qs.first()``
