@@ -16,8 +16,6 @@ qs = Foo.objects.filter(id=query)
 ```
 
 #### b. Getting the specific instance
-- Return the specific instance 
-
 ```python
 instance = Foo.objects.get(id=query)
 
@@ -34,6 +32,8 @@ try:
 except Foo.DoesNotExist:
   raise Http404("Foo Doesn't exists")
 ```
+> Note the usage of ``Foo.objects.get`` 
+
 **Another way of handling exception when there exists two or more objects satisfying the certain criteria**
 ```python
 qs = Foo.objects.filter(title=query)
