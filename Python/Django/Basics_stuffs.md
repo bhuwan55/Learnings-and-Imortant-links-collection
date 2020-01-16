@@ -5,7 +5,23 @@
 ```
 **Note** .url.
 
-## 2. Django QuerySet vs Get Specific Instance
+## 2. Passing variables to Templates
+
+**Templates/base.html**
+
+```html
+  {%include 'base/another_template.html' with someVariable%}
+```
+
+**Note:** ``with someVariable``
+
+**Base/another_template.html**
+```html
+<h1>{{someVariable}} </h1>
+```
+
+
+## 3. Django QuerySet vs Get Specific Instance
 - Exception Handling is must during the execution of CRUD operation
 #### a. Getting queryset
 - Returns the set of an objects matching the certain criteria.
@@ -43,3 +59,4 @@ else:
   raise Http404("Foo doesn't exists.")
 ```
 **Note:** ``instance = qs.first()``
+
