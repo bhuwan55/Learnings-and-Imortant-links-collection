@@ -7,6 +7,7 @@
    - [Operator Overloading with magic methods](https://www.python-course.eu/python3_magic_methods.php)
 
 - **Django**
+  - [Django Template Filters](https://docs.djangoproject.com/en/3.0/ref/templates/builtins/)
   - [Django modules index](https://docs.djangoproject.com/en/2.2/py-modindex/)
   - [Django Database Constraints- Stackoverflow](https://stackoverflow.com/a/49981364/10901575)
   - [Django Proxy Model - Creating A custom User Model ](https://simpleisbetterthancomplex.com/tutorial/2016/07/22/how-to-extend-django-user-model.html)
