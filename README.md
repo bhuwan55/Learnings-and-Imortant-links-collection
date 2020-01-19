@@ -5,6 +5,13 @@
    - [Python Import System](https://docs.python.org/3.5/reference/import.html#the-import-system)
    - [Advanced Uses of Decorators](http://archive.oreilly.com/oreillyschool/courses/Python4/Python4-07.html)
    - [Operator Overloading with magic methods](https://www.python-course.eu/python3_magic_methods.php)
+ 
+ - **Cheatsheet**
+   - [Object Oriented Programming Python 3 - Blog](https://realpython.com/python3-object-oriented-programming/)
+   - [Official Python Tutorial Classes](https://docs.python.org/3/tutorial/classes.html)
+   - [Python Design Patterns - Blog](https://www.toptal.com/python/python-design-patterns)
+   - [Python Object Oriented Design - PDF](https://python.g-node.org/python-summerschool-2013/_media/wiki/oop/oo_design_2013.pdf)
+ 
 
 - **Django**
   - [Django Template Filters](https://docs.djangoproject.com/en/3.0/ref/templates/builtins/)
