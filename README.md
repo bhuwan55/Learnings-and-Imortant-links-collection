@@ -32,6 +32,9 @@
 # Docker
 - - [Docker Quick Start Django with Postgress](https://docs.docker.com/compose/django/)
 
+**Common Issues**
+- [Permission Denied](https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue)
+
 # Extras
 - [Notes for learning](https://www.geeksforgeeks.org/)
 
