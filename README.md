@@ -38,5 +38,8 @@
 # Extras
 - [Notes for learning](https://www.geeksforgeeks.org/)
 
+# Postgresql
+- [Setting Up Database and Password](https://stackoverflow.com/questions/7695962/postgresql-password-authentication-failed-for-user-postgres)
+
 # Design Pattern Terminology And Implementation Codes
 - [Mixins and Usage](https://stackoverflow.com/questions/533631/what-is-a-mixin-and-why-are-they-useful)
