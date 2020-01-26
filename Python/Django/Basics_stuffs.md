@@ -60,3 +60,19 @@ else:
 ```
 **Note:** ``instance = qs.first()``
 
+### c. Others
+
+**Creating objects for ManyToManyField**
+- Direct method
+```python
+  pro = Product.objects.create(..........)
+  pro.attributed.create(color=prod_attr[0],size=prod_attr[1],stock= prod_attr[2])
+  pro.save()
+```
+- By Referencing to the object
+```python
+foo = Foo.objects.create(....)
+bar = Bar.objects.get(...)
+bar.M2MFieldName.add(foo)
+```
+
