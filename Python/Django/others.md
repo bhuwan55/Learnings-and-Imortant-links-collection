@@ -40,3 +40,37 @@ now you can easily create dynamic querysets:
     Image.objects.all().large().portraits()
 ```
 Logically, these functions should be concerned primarily with partitioning or redefining of existing querysets of the queryset's model. For situations where you aren't operating on existing querysets, you don't want to return a queryset at all, or you might have to perform some related logic that doesn't involve this particular model, than a model manager it better suited. 
+
+## Runing Django Dev Server on local Wi-Fi network
+
+**i. Get the ip of local machine**
+
+``ifconfig``
+
+**ii.Grab the ip:**
+
+```
+wlp2s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.70(Local Machine IP)  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::dbd9:d99f:c6f9:feb7  prefixlen 64  scopeid 0x20<link>
+        ether 2c:6e:85:ee:54:a8  txqueuelen 1000  (Ethernet)
+        RX packets 19656  bytes 21227997 (21.2 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 8552  bytes 1839939 (1.8 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+```
+
+**iii. Open the port 8000 for accessing django on dev machine:**
+
+``sudo ufw allow 8000/tcp``
+
+**iv. Allow all ip in django HOST lists**
+```python
+ALLOWED_HOSTS = ['*']
+```
+
+**v. Launch server from local machine ip and port**
+
+```python
+python manage.py runserver <local_machine_ip>:<allowed_port>
+```
