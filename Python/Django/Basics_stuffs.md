@@ -76,3 +76,8 @@ bar = Bar.objects.get(...)
 bar.M2MFieldName.add(foo)
 ```
 
+### D. Date Filtering In between range
+
+```python
+inv = Invoice.objects.filter(supplier=custom, invoice_date__date__range=[entry_date, end_date])
+```
