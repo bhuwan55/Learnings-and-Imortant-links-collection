@@ -1,4 +1,5 @@
-# Solution to Peer Authentication Failed:
+## Solution to Peer Authentication Failed:
+
  1. Open the file: ``/etc/postgresql/9.1/main/pg_hba.conf*`` on nano.
  2. Modify:
  
@@ -8,11 +9,11 @@
  
  ```local   all             postgres                                md5```
 
-# Accessing Postgres through terminal
+## Accessing Postgres through terminal
 ``sudo -u postgres psql``
 
 
-# Import Sql Dump
+## Import Sql File
 
 ``sudo -u postgres psql db_name < 'file_path'
 ``
