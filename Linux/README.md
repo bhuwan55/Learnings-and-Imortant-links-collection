@@ -13,7 +13,7 @@
 #!/bin/bash
 ssh root@ip
 ```
-5. sudo chmod u+x filename
+5. Set execution permission for current user: ``sudo chmod u+x filename``
 6. Now you can access executing the bash file as ``./filename``
 
 
